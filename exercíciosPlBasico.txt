@@ -1,0 +1,26 @@
+Exercícios
+1-
+Construa um bloco anônimo que faça a inclusão de um departamento.
+
+Solicite ao usuário que informa o nome do departamento. Para o código do departamento utilize um sequência.
+
+Para os codigos do gerente e para a localização insiram null.
+Name            Null?    Type         
+--------------- -------- ------------ 
+DEPARTMENT_ID   NOT NULL NUMBER(4)    
+DEPARTMENT_NAME NOT NULL VARCHAR2(30) 
+MANAGER_ID               NUMBER(6)    
+LOCATION_ID              NUMBER(4)   
+
+2- 
+Construa um bloco anônimo que conceda um prêmio para cada funcionário conforme o salário.
+
+Solicite que seja informado o código do usuário.
+
+A cada $ 1000 que o funcionário ganhar exiba um *. Por exemplo:
+
+Se o funcionário ganha 9000 exiba 9 * (*********)
+Se o funcionário ganha 2100 exiba 2 * (**)
+Se o funcionário ganha 3700 exiba 4 * (****)
+
+Exiba o last_name, salário e a qtd de estrelas.
